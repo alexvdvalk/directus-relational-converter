@@ -1,0 +1,9 @@
+GET items/[collection]
+
+query string:
+
+?deep[translations][_filter][languages_code][_eq]=en-US
+&fields=*,translations.*
+
+
+The translations field will still return as an array, but will only include the en-US record.
