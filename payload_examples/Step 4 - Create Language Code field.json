@@ -1,0 +1,13 @@
+// API:
+// POST /fields/[collection]_translations
+// Creating 'language code' field in the new translations table
+
+{
+  "collection": "abc_translations",
+  "field": "languages_code",
+  "type": "string",
+  "schema": {},
+  "meta": {
+    "hidden": true
+  }
+}

@@ -1,0 +1,12 @@
+//API
+// POST /fields/[collection]
+
+{
+  "field": "translations",
+  "type": "alias",
+  "meta": {
+    "interface": "translations",
+    "special": ["translations"]
+  },
+  "collection": "abc" //Collection name to be changed
+}

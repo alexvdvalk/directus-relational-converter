@@ -1,0 +1,17 @@
+//API
+// POST /relations
+
+// Description: Create relational constraint between source collection and new translations table
+
+{
+  "collection": "abc_translations",
+  "field": "abc_id",
+  "related_collection": "abc",
+  "meta": {
+    "one_field": "translations",
+    "junction_field": "languages_code"
+  },
+  "schema": {
+    "on_delete": "SET NULL"
+  }
+}

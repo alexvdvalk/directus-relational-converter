@@ -1,0 +1,19 @@
+//API
+// POST /relations
+
+//Description - Creates relational
+
+{
+  "collection": "abc_translations",
+  "field": "languages_code",
+  "related_collection": "languages",
+  "meta": {
+    "one_field": null,
+    "sort_field": null,
+    "one_deselect_action": "nullify",
+    "junction_field": "abc_id"
+  },
+  "schema": {
+    "on_delete": "SET NULL"
+  }
+}

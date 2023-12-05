@@ -1,0 +1,25 @@
+//API:
+// POST /collections
+
+{
+  "collection": "abc_translations", // this collection name needs to be changed
+  "meta": {
+    "hidden": true,
+    "icon": "import_export"
+  },
+  "schema": {
+    "name": "abc_translations" // this collection name needs to be changed
+  },
+  "fields": [
+    {
+      "field": "id",
+      "type": "integer",
+      "schema": {
+        "has_auto_increment": true
+      },
+      "meta": {
+        "hidden": true
+      }
+    }
+  ]
+}

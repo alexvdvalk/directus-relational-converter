@@ -1,0 +1,13 @@
+// API:
+// POST /fields/[collection]_translations
+// Creating ID field in the new translations table
+
+{
+  "collection": "abc_translations", //Colleciton Name
+  "field": "abc_id", //Colleciton Name
+  "type": "uuid",
+  "schema": {},
+  "meta": {
+    "hidden": true
+  }
+}
