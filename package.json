@@ -6,15 +6,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "load": "ts-node-esm scripts/directus.ts"
+    "load": "ts-node scripts/directus.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@directus/sdk": "^13.0.2"
+    "@directus/sdk": "^13.0.2",
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
-    "@types/node": "^20.10.4"
+    "@types/node": "^20.10.4",
+    "ts-node": "^10.9.2"
   }
 }

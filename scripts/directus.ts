@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 import { createDirectus, rest, staticToken } from "@directus/sdk";
 
 const url = process.env.URL!;
